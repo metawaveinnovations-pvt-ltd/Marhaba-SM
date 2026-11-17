@@ -479,6 +479,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
           branchId: form.branchId,
           customerName: form.fullName,
           customerPhone: form.phone,
+          customerEmail: form.email,
           fulfillmentMethod: form.fulfillmentMethod,
           addressSummary:
             form.fulfillmentMethod === 'delivery'
@@ -540,6 +541,12 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
 
   const signOutAccount = useCallback(() => {
     setIsSignedIn(false);
+    try {
+      localStorage.removeItem('marhaba_saathi_customer_token_v1');
+    } catch {
+      // ignore
+    }
+    void fetch('/api/saathi/customer/logout', { method: 'POST', credentials: 'include' }).catch(() => {});
     showToast({
       title: 'Signed out',
       detail: 'You have signed out of your Marhaba account view',
@@ -555,12 +562,34 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
         phone: details.phone?.trim() || prev.phone,
       }));
       setIsSignedIn(true);
+      void fetch('/api/saathi/customer/login', {
+        method: 'POST',
+        credentials: 'include',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          fullName: details.fullName.trim(),
+          email: details.email.trim(),
+          phone: details.phone?.trim() || accountProfile.phone,
+          branchId,
+        }),
+      })
+        .then((r) => (r.ok ? r.json() : null))
+        .then((data) => {
+          if (data?.token) {
+            try {
+              localStorage.setItem('marhaba_saathi_customer_token_v1', data.token);
+            } catch {
+              // ignore
+            }
+          }
+        })
+        .catch(() => {});
       showToast({
         title: `Welcome back, ${details.fullName.trim() || 'Member'}`,
         detail: 'Demo account session active',
       });
     },
-    [showToast]
+    [accountProfile.phone, branchId, showToast]
   );
 
   const saveAddress = useCallback(

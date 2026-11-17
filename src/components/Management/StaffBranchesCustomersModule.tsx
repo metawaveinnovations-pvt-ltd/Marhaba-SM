@@ -2,6 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { Building2, CalendarClock, CheckCircle2, Headphones, Users, Wrench } from 'lucide-react';
 import { hasPermission } from '../../erp/permissions';
 import type { MaintenanceTicket } from '../../erp/types';
+import { SaathiAdminPanel } from '../Saathi/SaathiAdminPanel';
 import { managementApi, type ManagementBootstrapPayload } from './managementApi';
 
 interface StaffBranchesCustomersModuleProps {
@@ -17,6 +18,7 @@ export function StaffBranchesCustomersModule({
 }: StaffBranchesCustomersModuleProps) {
   const [feedback, setFeedback] = useState<{ type: 'ok' | 'err'; text: string } | null>(null);
   const [busy, setBusy] = useState(false);
+  const [customerSubTab, setCustomerSubTab] = useState<'cases' | 'saathi'>('cases');
 
   const defaultBranch = data.activeBranchScope === 'all' ? 'hyderabad' : data.activeBranchScope;
 
@@ -436,19 +438,48 @@ export function StaffBranchesCustomersModule({
   if (mode === 'customers') {
     return (
       <div className="space-y-6">
-        {feedback && (
-          <div
-            className={`p-3.5 rounded-xl border text-xs font-medium ${
-              feedback.type === 'ok'
-                ? 'bg-[#166534]/8 border-[#166534]/25 text-[#166534]'
-                : 'bg-[#9B1C2E]/8 border-[#9B1C2E]/25 text-[#9B1C2E]'
+        <div className="inline-flex items-center gap-1 p-1 bg-[#FFFFFF] border border-[#E6E2DA] rounded-xl">
+          <button
+            type="button"
+            onClick={() => setCustomerSubTab('cases')}
+            className={`px-3.5 py-2 rounded-lg text-xs font-semibold transition-colors ${
+              customerSubTab === 'cases'
+                ? 'bg-[#9B1C2E] text-white'
+                : 'text-[#57534E] hover:text-[#1C1917]'
             }`}
           >
-            {feedback.text}
-          </div>
-        )}
+            Customer Care &amp; Returns ({data.customerCases.length})
+          </button>
+          <button
+            type="button"
+            onClick={() => setCustomerSubTab('saathi')}
+            className={`px-3.5 py-2 rounded-lg text-xs font-semibold transition-colors ${
+              customerSubTab === 'saathi'
+                ? 'bg-[#9B1C2E] text-white'
+                : 'text-[#57534E] hover:text-[#1C1917]'
+            }`}
+          >
+            Marhaba Saathi AI Admin
+          </button>
+        </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+        {customerSubTab === 'saathi' ? (
+          <SaathiAdminPanel roleId={data.user.roleId} />
+        ) : (
+          <>
+            {feedback && (
+              <div
+                className={`p-3.5 rounded-xl border text-xs font-medium ${
+                  feedback.type === 'ok'
+                    ? 'bg-[#166534]/8 border-[#166534]/25 text-[#166534]'
+                    : 'bg-[#9B1C2E]/8 border-[#9B1C2E]/25 text-[#9B1C2E]'
+                }`}
+              >
+                {feedback.text}
+              </div>
+            )}
+
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
           <section className="lg:col-span-7 bg-[#FFFFFF] border border-[#E6E2DA] rounded-2xl overflow-hidden">
             <div className="px-5 py-4 border-b border-[#E6E2DA] flex items-center justify-between">
               <h2 className="text-sm font-bold text-[#1C1917] flex items-center gap-2">
@@ -572,7 +603,9 @@ export function StaffBranchesCustomersModule({
               </form>
             </section>
           )}
-        </div>
+            </div>
+          </>
+        )}
       </div>
     );
   }

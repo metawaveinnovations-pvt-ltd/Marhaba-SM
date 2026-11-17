@@ -26,6 +26,7 @@ import { createPlayLandRouter } from '../playland/apiRouter';
 import { createInitialInterBusinessRequests, createPortalRouter } from '../portal/apiRouter';
 import type { InterBusinessRequest, ManagementSystemId } from '../portal/types';
 import { createRestaurantRouter } from '../restaurant/apiRouter';
+import { createSaathiRouter } from '../saathi/apiRouter';
 import { createInitialErpDatabase, type ErpDatabaseState, type StaffCredentialSeed } from './seedData';
 import type {
   ApprovalRequest,
@@ -262,6 +263,7 @@ export function createApiApp(initialDb?: ErpDatabaseState) {
       branchId?: string;
       customerName?: string;
       customerPhone?: string;
+      customerEmail?: string;
       fulfillmentMethod?: 'delivery' | 'pickup';
       addressSummary?: string;
       paymentMethod?: 'cod' | 'card-counter';
@@ -334,6 +336,7 @@ export function createApiApp(initialDb?: ErpDatabaseState) {
       branchId,
       customerName: body.customerName.trim(),
       customerPhone: body.customerPhone.trim(),
+      customerEmail: body.customerEmail?.trim() || undefined,
       fulfillmentMethod: body.fulfillmentMethod === 'pickup' ? 'pickup' : 'delivery',
       addressSummary:
         body.addressSummary?.trim() ||
@@ -2814,6 +2817,27 @@ export function createApiApp(initialDb?: ErpDatabaseState) {
   app.use('/api/portal', portalRouter);
   app.use('/api/rest', restaurantSystem.router);
   app.use('/api/play', playLandSystem.router);
+
+  const resolveMgmtStaffUser = (req: Request): StaffUser | null => {
+    const token = extractToken(req);
+    if (!token) return null;
+    const payload = verifySessionToken(token);
+    if (!payload) return null;
+    if (payload.systems && !payload.systems.includes('supermarket')) return null;
+    const found = db.staffUsers.find((u) => u.id === payload.uid);
+    if (!found || !found.active) return null;
+    return stripCredential(found);
+  };
+
+  const saathiRouter = createSaathiRouter({
+    erpDb: db,
+    restaurantDb: restaurantSystem.db,
+    playLandDb: playLandSystem.db,
+    resolveMgmtStaffUser,
+    addAudit,
+    onInterBusinessRequest: pushInterBusinessRequest,
+  });
+  app.use('/api/saathi', saathiRouter);
 
   return app;
 }

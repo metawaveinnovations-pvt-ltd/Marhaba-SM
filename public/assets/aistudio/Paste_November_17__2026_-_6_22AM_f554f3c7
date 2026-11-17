@@ -1,0 +1,1746 @@
+# MARHABA — FINAL ENTERPRISE PLATFORM QUALITY ASSURANCE & EXPERIENCE PERFECTION
+## Complete Public Website, Three Management Systems, Customer Journeys, AI Assistant & Production-Readiness Review
+### MetaWave Innovations LTD | Executive Digital Product & Engineering Quality Directive
+
+**PROJECT MODE: AUDIT, COMPLETE, CORRECT, OPTIMIZE, REFINE AND VERIFY THE EXISTING PROJECT.**
+
+**CRITICAL: DO NOT START A NEW PROJECT. DO NOT UNNECESSARILY REBUILD OR REPLACE SUCCESSFUL WORK.**
+
+**REFERENCE BUSINESS:** https://marhabasupermarket.store/
+
+**CURRENT PROJECT:** Existing Marhaba website and management ecosystem developed through Google AI Studio.
+
+---
+
+# 01 — YOUR ROLE: WORLD-CLASS DIGITAL PRODUCT QUALITY TEAM
+
+Act as a combined team of:
+
+- Principal Digital Product Architect.
+- Award-Winning Creative Director.
+- Senior UI/UX Design Systems Architect.
+- Enterprise Retail & E-commerce Specialist.
+- Restaurant Operations & Hospitality Systems Architect.
+- Family Entertainment Management Consultant.
+- Senior Full-Stack Software Engineer.
+- Senior Frontend Performance Engineer.
+- Database and Transaction Integrity Specialist.
+- Enterprise Security & RBAC Architect.
+- Conversational AI & Knowledge Engineering Specialist.
+- Software Quality Assurance Director.
+- Accessibility & Responsive Design Specialist.
+- Site Reliability and Maintenance Engineer.
+- Business Process Analyst.
+- Executive Product Delivery & Acceptance Lead.
+
+Apply established professional methods and appropriate tools, including:
+
+- Figma-level design-system thinking.
+- Material Design 3.
+- Apple Human Interface Guidelines.
+- Nielsen Norman Group UX principles.
+- WCAG 2.2 AA.
+- Core Web Vitals and Google Lighthouse.
+- Playwright browser testing.
+- axe-core accessibility testing.
+- Vitest/Jest and component testing where supported.
+- OWASP application security practices.
+- API contract and integration testing.
+- Controlled load and performance testing.
+- ISO/IEC 25010 software quality principles.
+
+Use tools actually available in the project environment. Do not report unperformed tests as successful.
+
+Think like an experienced enterprise product team responsible for a real business, real employees and real customers.
+
+**OUR OBJECTIVE IS NOT MORE FEATURES OR MORE DECORATION. IT IS TO COMPLETE AND PERFECT THE EXISTING PLATFORM.**
+
+# 02 — UNDERSTAND THE FINAL PRODUCT
+
+The Marhaba platform includes:
+
+## A. Public Customer Website
+
+- Home.
+- Supermarket.
+- Shopping departments.
+- Categories and subcategories.
+- Products.
+- Offers.
+- Product details.
+- Cart.
+- Checkout.
+- Customer accounts.
+- Restaurant.
+- Restaurant menu and cuisines.
+- Restaurant reservations.
+- Restaurant gallery.
+- Play Land.
+- Attractions and rides.
+- Ticket packages.
+- Birthday and family experiences.
+- Parent Guide.
+- About Marhaba.
+- Branch locations.
+- Contact and support.
+- Policies and FAQs.
+- Marhaba Saathi AI.
+
+## B. Unified Management Portal
+
+- Staff Email and Password Login.
+- Management System Selection.
+- Supermarket Management.
+- Restaurant Management.
+- Play Land Management.
+- Role-specific login.
+- Isolated demonstration role selection.
+- Secure authorization and navigation.
+
+## C. Supermarket Management
+
+- POS.
+- Products.
+- Inventory.
+- Purchasing.
+- Online Orders.
+- Pricing.
+- Finance.
+- Staff.
+- Branches.
+- Customers.
+- Reports.
+- MIS.
+
+## D. Restaurant Management
+
+- Dining and tables.
+- Reservations.
+- Waiter orders.
+- Restaurant POS.
+- Kitchen Display.
+- Menu.
+- Dishes and recipes.
+- Food inventory.
+- Purchasing.
+- Staff.
+- Guest service.
+- Accounts.
+- Reports.
+- MIS.
+
+## E. Play Land Management
+
+- Tickets and POS.
+- Admissions.
+- Attractions.
+- Sessions.
+- Packages.
+- Safety and inspections.
+- Maintenance.
+- Birthday events.
+- Guest support.
+- Staff.
+- Finance.
+- Reports.
+- MIS.
+
+## F. Marhaba Saathi AI
+
+- Product discovery.
+- Shopping support.
+- Customer account guidance.
+- Authenticated order tracking.
+- Delivery information.
+- Restaurant information.
+- Menu discovery.
+- Reservation inquiries.
+- Play Land information.
+- Family visit assistance.
+- Business locations.
+- Company knowledge.
+- Customer support and escalation.
+
+**Every one of these must be included in the final audit.**
+
+# 03 — PRESERVE THE EXISTING APPLICATION
+
+Before making changes:
+
+1. Inspect all existing files and routes.
+2. Identify shared components.
+3. Identify implemented modules.
+4. Inventory all existing data models.
+5. Identify backend services and integrations.
+6. Inspect authentication and authorization.
+7. Identify accepted UI patterns.
+8. Preserve existing working features.
+9. Establish regression tests.
+10. Record current technical and design issues.
+
+Do not randomly restructure the codebase.
+
+Do not change working navigation unnecessarily.
+
+Do not replace correct data with demonstration data.
+
+Do not redesign approved components merely for visual variety.
+
+**The Supermarket Management System was previously accepted. Preserve its design and workflows. Apply only confirmed bug fixes, necessary security corrections and compatibility changes, with regression verification.**
+
+Restaurant and Play Land Management must receive equally serious quality reviews.
+
+# 04 — MASTER DESIGN-SYSTEM AUDIT
+
+Audit the design system across the complete platform.
+
+Inspect:
+
+- Brand colors.
+- Typography.
+- Heading scale.
+- Body text.
+- Navigation spacing.
+- Content widths.
+- Grid systems.
+- Section transitions.
+- Card layouts.
+- Border radii.
+- Shadows.
+- Buttons.
+- Icons.
+- Forms.
+- Tables.
+- Dialogs.
+- Drawers.
+- Alerts.
+- Status indicators.
+- Loading skeletons.
+- Empty states.
+- Error states.
+- Responsive breakpoints.
+- Animation and interaction timing.
+
+## Visual design requirements
+
+The entire experience must feel:
+
+- Premium.
+- Professional.
+- Friendly.
+- Soft.
+- Comfortable.
+- Creative.
+- Trustworthy.
+- Modern.
+- Intuitive.
+- Distinctive.
+- Consistent.
+- Fast.
+
+Avoid:
+
+- Harsh edges.
+- Overly sharp visual patterns.
+- Confusing layouts.
+- Crowded cards.
+- Excessive shadows.
+- Excessive gradients.
+- Weak typography.
+- Random colors.
+- Repetitive generic sections.
+- Unnecessarily large empty spaces.
+- Tiny buttons.
+- Abrupt transitions.
+- Excessive animations.
+- Unfriendly visual feedback.
+
+Use gentle, consistent radii and refined surfaces, but avoid turning every section into an identical rounded card.
+
+The design must feel carefully composed rather than automatically generated.
+
+## Visual refinement process
+
+For every page:
+
+Inspect → Identify → Compare Against Design System → Correct → Preview → Verify.
+
+Ensure visual improvement never breaks functionality.
+
+# 05 — COMPLETE PUBLIC WEBSITE QA
+
+Audit every public page and every section.
+
+## Homepage
+
+Inspect:
+
+- Announcement bar.
+- Logo.
+- Header.
+- Search.
+- Navigation.
+- Hero.
+- Primary CTAs.
+- Three business experiences.
+- Supermarket categories.
+- Offers.
+- Featured products.
+- Brand showcases.
+- Restaurant sections.
+- Play Land sections.
+- Trust and brand information.
+- Location sections.
+- Customer support.
+- Footer.
+
+Check:
+
+- Is Marhaba's identity clear immediately?
+- Are all three business experiences discoverable?
+- Is the design welcoming?
+- Are images properly displayed?
+- Is information accurate?
+- Are the CTAs meaningful?
+- Are sections visually connected?
+- Is there unnecessary repetition?
+
+Fix incomplete content, broken actions and weak layouts.
+
+Do not add decorative sections without customer value.
+
+# 06 — SUPERMARKET CUSTOMER EXPERIENCE QA
+
+Audit all shopping routes, templates and product interactions.
+
+## Categories
+
+Verify:
+
+- Department structure.
+- Category structure.
+- Subcategory hierarchy.
+- Brands.
+- Category images.
+- Correct product relationships.
+- Navigation breadcrumbs.
+- Category filtering.
+- Mobile category access.
+
+Use the original website taxonomy as the factual starting point.
+
+Support the complete existing product catalogue through reusable templates and data integration.
+
+Do not reduce real departments to a few demonstration categories.
+
+## Shop sidebar
+
+Check:
+
+- Category navigation.
+- Subcategories.
+- Brand filters.
+- Price filters.
+- Availability.
+- Discounts.
+- Product attributes.
+- Filter chips.
+- Clear Filters.
+- Mobile filter drawer.
+
+Filters must produce correct results and preserve meaningful state.
+
+## Product cards
+
+Verify:
+
+- Correct genuine product image.
+- Brand.
+- Product name.
+- Pack size.
+- Current price.
+- Original price when discounted.
+- Accurate discount percentage.
+- Availability.
+- Quantity or variant requirements.
+- Add to Cart.
+- Wishlist.
+- Product link.
+
+Every card must align consistently.
+
+No stretched images.
+
+No inaccurate discounts.
+
+No buttons without actions.
+
+## Product detail
+
+Verify:
+
+- Image gallery.
+- Zoom.
+- Name.
+- Brand.
+- SKU.
+- Variants.
+- Units.
+- Pricing.
+- Availability.
+- Quantity.
+- Add to Cart.
+- Description.
+- Specifications.
+- Related products.
+
+Check that related products are genuinely related.
+
+## Cart and checkout
+
+Test:
+
+1. Add item.
+2. Change quantity.
+3. Remove item.
+4. Add discounted item.
+5. Add product variation.
+6. Calculate subtotal.
+7. Apply supported promotion.
+8. Calculate delivery charges.
+9. Validate checkout form.
+10. Select authorized payment method.
+11. Confirm order according to backend status.
+12. Handle failure or cancellation.
+
+Prevent duplicate orders and incorrect totals.
+
+A successful visual animation is not proof of a completed payment.
+
+## Customer accounts
+
+Verify:
+
+- Login.
+- Registration.
+- Password recovery.
+- Profile.
+- Addresses.
+- Wishlist.
+- Orders.
+- Tracking.
+- Relevant bookings.
+- Help.
+- Logout.
+
+Keep the customer account simple and comfortable.
+
+Avoid excessive charts, counters, menus and unnecessary features.
+
+# 07 — RESTAURANT PUBLIC EXPERIENCE QA
+
+Audit every Restaurant page.
+
+## Restaurant overview
+
+Verify:
+
+- Brand presentation.
+- Hero.
+- Cuisine introduction.
+- Restaurant details.
+- Featured dishes.
+- Dining information.
+- Gallery.
+- Reservations.
+- Contact.
+- Directions.
+
+## Digital menu
+
+Audit:
+
+- Cuisine navigation.
+- Pakistani dishes.
+- Chinese dishes.
+- Italian dishes.
+- Turkish dishes.
+- Additional verified categories.
+- Dish images.
+- Names.
+- Descriptions.
+- Portions.
+- Prices.
+- Modifiers.
+- Dietary information.
+- Availability.
+- Deals and offers.
+
+The original website is the reference for public business information.
+
+Use the actual menu when available.
+
+Do not fabricate official dishes, promotions or prices.
+
+## Restaurant customer journeys
+
+Test:
+
+Menu Discovery → Dish Details → Reservation / Order Inquiry → Confirmation Status.
+
+Verify:
+
+- Navigation accuracy.
+- Correct menu relationships.
+- Readable dish cards.
+- Mobile convenience.
+- Clear reservations.
+- Realistic inquiry status.
+- Correct contact actions.
+
+## Restaurant gallery
+
+Review:
+
+- Food imagery.
+- Dining photography.
+- Interior/ambiance photographs.
+- Kitchen imagery where authentic.
+- Image proportions.
+- Lightbox.
+- Mobile gallery interaction.
+
+Do not use misleading photos of premises or staff.
+
+# 08 — PLAY LAND PUBLIC EXPERIENCE QA
+
+Audit:
+
+- Play Land homepage.
+- Attractions.
+- Rides.
+- Age suitability.
+- Packages.
+- Tickets.
+- Birthday experiences.
+- Events.
+- Parent Guide.
+- Visit Planner.
+- Gallery.
+- FAQs.
+- Contact and directions.
+
+## Children and juniors
+
+The experience should feel exciting, welcoming and easy to explore.
+
+## Parents and guardians
+
+The experience should feel comfortable, clear and reassuring.
+
+Test whether parents can easily discover:
+
+- Which attractions are available.
+- Which ages are suitable.
+- Applicable restrictions.
+- Ticket prices.
+- Package inclusions.
+- Session information.
+- Supervision requirements.
+- Available parent facilities.
+- Contact details.
+- Visit planning.
+
+Only show verified attraction and facility information.
+
+## Visit planning test
+
+Parent Opens Play Land → Selects Age Group → Explores Attractions → Checks Packages → Reviews Visit Information → Submits Inquiry.
+
+The journey must be simple, not confusing.
+
+# 09 — ABOUT, CONTACT, LOCATIONS AND CORPORATE PAGES
+
+## About Marhaba
+
+Verify the published company history:
+
+- 1998 — Jeddah origins.
+- 2015 — International business exposure.
+- 2018 — Karachi establishment.
+- 2021 — Hyderabad expansion.
+
+Verify the three business creeds.
+
+Verify published directors:
+
+- Riaz Ahmed Memon.
+- Dr. Niaz Ahmed Memon.
+- Sheeraz Ahmed Memon.
+- Faraz Ahmed Memon.
+- Shahzad Ahmed Memon.
+
+Maintain correct titles and respectful visual presentation.
+
+Check the published workforce figure before presenting it as current.
+
+Do not invent executive biographies or photographs.
+
+## Contact
+
+Verify:
+
+- Addresses.
+- Telephone numbers.
+- Email.
+- Forms.
+- Department contacts.
+- Branch information.
+- Social media links.
+- Directions.
+- Hours.
+
+Use the original website as a reference and resolve conflicting information only with reliable verification.
+
+## Supporting pages
+
+Audit:
+
+- FAQs.
+- Delivery Policy.
+- Returns & Refunds.
+- Privacy Policy.
+- Terms.
+- Cancellation Policy.
+- Blog and Updates.
+- Search Results.
+- Empty States.
+- 404 / Not Found.
+- Error and Service Unavailable pages.
+
+Policies must not contain fabricated commitments.
+
+# 10 — MANAGEMENT GATEWAY QA
+
+Audit the public website's Management button.
+
+## Header
+
+Verify:
+
+- Management button appears in the approved position beside Cart.
+- Consistent design.
+- Responsive layout.
+- Correct accessible label.
+- Working route.
+- No header overflow.
+
+## Management Portal
+
+Verify:
+
+- Marhaba branding.
+- Staff email field.
+- Password field.
+- Sign In.
+- Password recovery if configured.
+- Management Systems section.
+- Three system cards.
+
+Cards:
+
+1. Supermarket.
+2. Restaurant.
+3. Play Land.
+
+Each card must route correctly.
+
+## Authentication
+
+Test:
+
+- Valid login.
+- Invalid login.
+- Missing fields.
+- Password visibility.
+- Session expiration.
+- Logout.
+- Unauthorized access.
+- Multi-workspace staff access.
+- Correct redirect after authentication.
+
+## Demo roles
+
+Verify system-specific demo role selection.
+
+Test that demo access is limited to isolated demonstration data.
+
+Production permissions must never be obtained through public role selection.
+
+# 11 — SUPERMARKET MANAGEMENT REGRESSION QA
+
+Preserve the accepted Supermarket Management application.
+
+Check:
+
+- Dashboard.
+- POS.
+- Products.
+- Categories.
+- Inventory.
+- Purchasing.
+- Suppliers.
+- Online orders.
+- Pricing.
+- Cashier shifts.
+- Finance.
+- Staff.
+- Branch management.
+- Customer support.
+- Reports.
+- MIS.
+
+Verify all configured roles.
+
+From:
+
+- Cashier.
+- Senior Cashier.
+- POS Supervisor.
+- Sales Staff.
+- Department Supervisor.
+- Receiving Staff.
+- Warehouse.
+- Inventory Controller.
+- Purchasing.
+- Accounts.
+- Administration.
+- MIS.
+- Branch Manager.
+- General Manager.
+- Directors.
+- CEO / Owner.
+
+Inspect role-appropriate tabs, daily tasks, permissions and workflows.
+
+Do not change approved visual design without a real problem.
+
+Focus on regression, transaction accuracy, permissions and stability.
+
+# 12 — RESTAURANT MANAGEMENT SYSTEM COMPLETE QA
+
+Audit every implemented Restaurant role and workspace.
+
+## Front of house
+
+- Host / Receptionist.
+- Waiter.
+- Food Runner.
+- Cashier.
+- Floor Supervisor.
+- Restaurant Manager.
+
+## Kitchen
+
+- Head Chef.
+- Sous Chef.
+- Station Chef.
+- Prep Cook.
+- Kitchen Expeditor.
+- Steward.
+
+## Back office
+
+- Inventory Controller.
+- Purchasing Officer.
+- Accounts.
+- Reservations / Guest Relations.
+- Staff Coordinator.
+- MIS.
+- Authorized executives.
+
+For each configured role, check:
+
+- Dashboard.
+- Sidebar tabs.
+- Data visibility.
+- Daily work.
+- Create/edit permissions.
+- Approvals.
+- Responsive layout.
+- Performance.
+- Complete workflow outcomes.
+
+## Restaurant operations
+
+Test:
+
+Reservation → Seating → Order → Kitchen Ticket → Preparation → Ready → Service → Billing → Payment → Closing.
+
+Test:
+
+- Table transfers.
+- Split payments.
+- Order changes.
+- Kitchen station routing.
+- Dish unavailability.
+- Ingredient consumption.
+- Recipe costing.
+- Purchasing.
+- Stock receiving.
+- Returns/voids.
+- Cashier closing.
+- Financial reconciliation.
+- Staff shifts.
+- Reports.
+
+No duplicate kitchen tickets.
+
+No incorrect order totals.
+
+No unauthorized discounts.
+
+No false payment confirmations.
+
+No unsupported automatic stock deductions.
+
+# 13 — PLAY LAND MANAGEMENT SYSTEM COMPLETE QA
+
+Audit every configured Play Land role.
+
+## Frontline
+
+- Ticket Cashier.
+- Admissions Attendant.
+- Attraction Operator.
+- Play Area Attendant.
+- Guest Relations.
+
+## Supervisors
+
+- Admissions Supervisor.
+- Attractions Supervisor.
+- Safety / Inspection Officer.
+- Maintenance Technician.
+- Maintenance Supervisor.
+
+## Management
+
+- Events Coordinator.
+- Staff Coordinator.
+- Accounts Officer.
+- Play Land Manager.
+- General Manager.
+- MIS.
+- Authorized executives.
+
+Verify:
+
+- Role-specific dashboard.
+- Navigation.
+- Tickets.
+- Admissions.
+- Sessions.
+- Attractions.
+- Packages.
+- Capacity.
+- Inspections.
+- Maintenance.
+- Events.
+- Cash closing.
+- Reporting.
+- Permissions.
+
+## Ticket workflow
+
+Package → Payment → Ticket Issuance → QR Validation → Admission → Session Tracking.
+
+Check:
+
+- Duplicate scans.
+- Invalid tickets.
+- Expired tickets.
+- Cancelled tickets.
+- Refunds.
+- Capacity.
+- Correct ticket status.
+
+## Attraction workflow
+
+Inspection → Authorized Opening → Operation → Fault Reporting → Maintenance → Verification → Authorized Reopening.
+
+Critical safety holds must remain enforced.
+
+Do not let ordinary users bypass equipment restrictions.
+
+Software must not substitute for actual trained personnel and physical inspections.
+
+## Birthday and event workflow
+
+Inquiry → Availability → Quotation → Approval → Booking → Preparation → Event Completion.
+
+Avoid duplicate bookings and unsupported package claims.
+
+# 14 — ALL ROLES: COMPLETE ACCESS & TASK VERIFICATION
+
+Do not simply test the main dashboard.
+
+For EVERY configured role:
+
+1. Log in.
+2. Confirm identity and workspace.
+3. Check visible sidebar tabs.
+4. Check hidden restricted tabs.
+5. Open every permitted page.
+6. Review displayed data.
+7. Perform routine tasks.
+8. Create sample records.
+9. Edit allowed records.
+10. Submit transactions.
+11. Test approval requirements.
+12. Attempt unauthorized operations.
+13. Verify API-side authorization.
+14. Verify downstream records.
+15. Review loading and error states.
+16. Test responsive layouts.
+17. Identify unnecessary clicks.
+18. Improve genuine problems.
+19. Re-test affected workflows.
+20. Record final pass/fail status.
+
+Create a Role × Module × Action × Data Scope permission matrix.
+
+Use server-enforced least-privilege authorization.
+
+Do not grant unrestricted business permissions merely because a user has a technical administrator role.
+
+# 15 — MARHABA SAATHI AI COMPLETE AUDIT
+
+Audit the existing assistant across all customer experiences.
+
+Verify:
+
+- Floating launcher.
+- Chat window.
+- Header.
+- Welcome message.
+- Quick actions.
+- Message input.
+- Send.
+- Loading.
+- Responses.
+- Product cards.
+- Restaurant menu cards.
+- Play Land information cards.
+- Locations.
+- Order tracking.
+- Customer support.
+- Language handling.
+- Mobile responsiveness.
+
+## Product assistance
+
+Test:
+
+"Show me 5kg rice."
+
+"Show shampoos under Rs. 800."
+
+"Add two of the second product."
+
+Ensure the assistant uses real available catalogue records or clearly identified demo data.
+
+## Restaurant assistance
+
+Test:
+
+"Show me the restaurant menu."
+
+"What Chinese food is available?"
+
+"Can I request a table for four?"
+
+Do not invent menu items or booking confirmations.
+
+## Play Land assistance
+
+Test:
+
+"What can a four-year-old enjoy?"
+
+"What packages are available?"
+
+"Can parents sit comfortably?"
+
+Do not invent age suitability, facilities or prices.
+
+## Order assistance
+
+Test:
+
+"Track my order."
+
+Require appropriate customer authentication.
+
+Prevent unauthorized order-data access.
+
+## Other tests
+
+- English.
+- Roman Urdu.
+- Follow-up questions.
+- Ambiguous requests.
+- Missing information.
+- API failures.
+- Human support handoff.
+- Prompt-injection attempts.
+- Unsafe links.
+- Restricted business information.
+- Conversation history handling.
+
+Ensure the AI is helpful, concise, friendly, accurate and consistent with Marhaba's identity.
+
+Its name should remain **Marhaba Saathi AI**, unless the existing project intentionally uses an approved variation.
+
+Do not create a second competing chatbot.
+
+# 16 — DATA ACCURACY & CROSS-SYSTEM INTEGRATION
+
+Check all data relationships.
+
+## Public website to Supermarket
+
+- Products.
+- Categories.
+- Brands.
+- Prices.
+- Stock.
+- Promotions.
+- Orders.
+- Customer accounts.
+
+## Public website to Restaurant
+
+- Menu.
+- Dishes.
+- Offers.
+- Restaurant information.
+- Reservation inquiries.
+
+## Public website to Play Land
+
+- Attractions.
+- Packages.
+- Sessions.
+- Ticket inquiries.
+- Events.
+
+## Public website to AI
+
+- Verified knowledge.
+- Product discovery.
+- Customer order status.
+- Restaurant data.
+- Play Land data.
+- Support information.
+
+## Internal systems
+
+Maintain separation of:
+
+- Supermarket transactions.
+- Restaurant transactions.
+- Play Land transactions.
+- Operational inventory.
+- Financial records.
+- Permissions.
+
+Do not introduce unauthorized cross-system changes.
+
+Create reliable API contracts and clear source-of-truth ownership.
+
+Handle:
+
+- Duplicate requests.
+- Failed updates.
+- Transaction retries.
+- Inconsistent state.
+- Concurrent users.
+- Stale prices.
+- Unavailable stock.
+- Payment failures.
+- Reservation conflicts.
+- Capacity conflicts.
+
+**One operation must not silently create inconsistent results in another module.**
+
+# 17 — FULL RESPONSIVE & VISUAL REVIEW
+
+Test representative widths:
+
+- 320px.
+- 375px.
+- 390px.
+- 430px.
+- 768px.
+- 1024px.
+- 1280px.
+- 1440px.
+- 1920px.
+
+Review every route on its relevant devices.
+
+## Public website
+
+Mobile shopping must feel application-like.
+
+Product cards must remain readable.
+
+Restaurant dishes must display beautifully.
+
+Play Land information must remain simple for parents.
+
+Customer account must be easy to navigate.
+
+AI chat must not obstruct content.
+
+## Management applications
+
+Cashier POS should work well on intended checkout hardware.
+
+Waiter ordering should be suitable for touchscreens.
+
+Kitchen displays must prioritize readability.
+
+Ticket scanning must support handheld use.
+
+Inventory and maintenance tasks must work on practical devices.
+
+Finance and management tables must remain usable on desktop.
+
+## Visual defects to eliminate
+
+- Overlapping content.
+- Cropped text.
+- Broken images.
+- Excessive empty spaces.
+- Incorrect alignment.
+- Inconsistent cards.
+- Inconsistent icons.
+- Bad typography.
+- Inaccessible contrast.
+- Abrupt animation.
+- Unexpected layout shifts.
+- Horizontal overflow.
+- Poor mobile menu behavior.
+- Unreadable tables.
+- Unresponsive controls.
+
+Make design adjustments carefully and consistently.
+
+# 18 — PERFORMANCE & SPEED OPTIMIZATION
+
+Analyze actual application performance.
+
+Do not merely make animations faster.
+
+Measure:
+
+- Initial page load.
+- Largest Contentful Paint.
+- Interaction to Next Paint.
+- Cumulative Layout Shift.
+- API response latency.
+- Product search latency.
+- Table filtering speed.
+- POS interaction latency.
+- Kitchen ticket propagation.
+- Ticket validation.
+- Dashboard rendering.
+- Large-data performance.
+- Error and retry behavior.
+
+Where supported, target:
+
+- LCP ≤ 2.5 seconds.
+- INP ≤ 200 milliseconds.
+- CLS ≤ 0.1.
+
+Use suitable optimization techniques:
+
+- Efficient rendering.
+- Lazy loading.
+- Code splitting.
+- Image compression.
+- Responsive images.
+- Data pagination.
+- Database indexes.
+- Efficient caching.
+- Query optimization.
+- Virtualization.
+- Appropriate background jobs.
+- Avoidance of duplicate requests.
+- Safe transactional updates.
+
+Performance must be measured, not assumed.
+
+Do not compromise security or transaction accuracy for speed.
+
+# 19 — SECURITY, PRIVACY & ACCESSIBILITY
+
+Perform authorized testing within the project and test environment.
+
+## Authentication
+
+- Secure customer login.
+- Secure staff login.
+- Session expiration.
+- Logout.
+- Password recovery.
+- Login rate limits.
+- Production/demo separation.
+
+## Permissions
+
+- Role-based access.
+- Branch scope.
+- Department scope.
+- Sensitive action approvals.
+- Cross-system isolation.
+- Direct API authorization.
+
+## Business data
+
+- Protected customer orders.
+- Protected staff records.
+- Protected financial data.
+- Protected supplier information.
+- Safe transaction audit history.
+
+## AI security
+
+- Server-side model credentials.
+- Safe tool calling.
+- Access validation.
+- Private data protection.
+- Prompt-injection resistance.
+- Appropriate escalation.
+
+## Accessibility
+
+- Keyboard navigation.
+- Visible focus states.
+- Readable contrast.
+- Accessible labels.
+- Accessible forms.
+- Screen-reader support.
+- Reduced-motion preference.
+- Comfortable touch targets.
+
+Test against WCAG 2.2 AA-oriented requirements.
+
+# 20 — COMPLETE END-TO-END CUSTOMER AND EMPLOYEE JOURNEYS
+
+Build an automated and/or documented test suite covering these complete paths.
+
+### Journey 1 — Customer Shopping
+
+Homepage → Shop → Category → Product → Cart → Checkout → Order → Account.
+
+### Journey 2 — Product Discount
+
+Product Listing → Sale Price → Product Detail → Cart → Total → Checkout.
+
+### Journey 3 — Customer Account
+
+Registration → Login → Address → Wishlist → Order → Tracking → Logout.
+
+### Journey 4 — Restaurant Customer
+
+Restaurant → Cuisine → Menu → Dish → Reservation Inquiry → Status.
+
+### Journey 5 — Play Land Family
+
+Play Land → Age Group → Attractions → Packages → Visit Planner → Inquiry.
+
+### Journey 6 — Supermarket Cashier
+
+Staff Login → Open Shift → Scan → Payment → Receipt → Shift Closing.
+
+### Journey 7 — Supermarket Inventory
+
+Purchasing → Goods Receiving → Inventory → Shelf → Sale → Reports.
+
+### Journey 8 — Restaurant Operations
+
+Host → Waiter → Kitchen → Food Runner → Cashier → Accounts.
+
+### Journey 9 — Play Land Operations
+
+Ticket Sale → Payment → Validation → Admission → Attraction → Reconciliation.
+
+### Journey 10 — Play Land Safety
+
+Issue Report → Attraction Hold → Maintenance → Inspection → Authorized Reopening.
+
+### Journey 11 — CEO & Directors
+
+Login → Dashboard → Branch/Department Reports → Drill-Down → Authorized Approval.
+
+### Journey 12 — Saathi AI
+
+Open Chat → Ask Question → Retrieve Accurate Information → Perform Authorized Action → Confirmation / Escalation.
+
+Every journey must be tested for:
+
+- Navigation.
+- Data accuracy.
+- Role permissions.
+- Transaction correctness.
+- Error handling.
+- Recovery.
+- Responsive behavior.
+- Performance.
+
+# 21 — COMPLETE PAGE, SECTION AND ROUTE INVENTORY
+
+Generate a complete route inventory from the ACTUAL codebase.
+
+For every route record:
+
+- Route.
+- Page name.
+- Business domain.
+- Intended user.
+- Existing components.
+- Content completeness.
+- Main actions.
+- Data source.
+- Authentication requirement.
+- Responsive status.
+- Accessibility status.
+- Functional test status.
+- Outstanding defects.
+
+Include dynamic templates and representative records.
+
+Do not manually duplicate thousands of category or product tests. Verify the shared template thoroughly and test representative product types and edge cases.
+
+Every page must have a meaningful purpose.
+
+No orphan routes.
+
+No broken menu links.
+
+No unfinished placeholder pages presented as complete.
+
+# 22 — FINAL ART DIRECTION & CREATIVE REFINEMENT
+
+After functional correctness is established, perform a final creative review.
+
+Evaluate the complete website as an experienced design director.
+
+Ask:
+
+- Does this feel like Marhaba?
+- Does the brand appear established and trustworthy?
+- Are visual compositions intentional?
+- Are product images clear and consistent?
+- Does the restaurant feel inviting and sophisticated?
+- Does Play Land feel enjoyable but organized?
+- Can parents find information without stress?
+- Does every page visually connect to the others?
+- Is the header elegant and easy to navigate?
+- Are card sizes and spacing consistent?
+- Is typography refined?
+- Are controls soft and comfortable?
+- Are animations subtle?
+- Is mobile interaction smooth?
+- Does the design avoid generic AI-generated patterns?
+
+Refine what genuinely needs refinement.
+
+**Do not redesign a successful section simply to make it look different.**
+
+Preserve the brand's established character.
+
+Improve clarity, proportion, rhythm, composition, accessibility and interaction.
+
+# 23 — MAINTENANCE & RELIABILITY PREPARATION
+
+Prepare the codebase for ongoing maintenance.
+
+## Code quality
+
+- Eliminate genuine duplicate logic.
+- Improve reusable components.
+- Fix unsafe typing.
+- Remove unused code.
+- Resolve relevant console warnings.
+- Keep business logic separate from UI.
+- Document important architecture.
+
+## Data management
+
+- Maintain data model consistency.
+- Add appropriate validation.
+- Implement safe migrations where applicable.
+- Ensure reliable backups.
+- Verify recovery procedures in an authorized test environment.
+
+## Operational reliability
+
+- Error monitoring.
+- Application health checks.
+- API failure monitoring.
+- Integration logs.
+- Background-job status.
+- Audit records.
+- Permission review.
+- Dependency updates.
+- Security updates.
+
+## Quality maintenance
+
+- Regression tests.
+- Unit tests.
+- Integration tests.
+- E2E tests.
+- Accessibility checks.
+- Performance budgets.
+- Route validation.
+
+## Production-readiness
+
+Document:
+
+- Required environment configuration.
+- Required credentials and integrations.
+- Deployment process.
+- Migration requirements.
+- Rollback strategy.
+- Business-data validation.
+- Staff onboarding.
+- Operational ownership.
+- Maintenance responsibilities.
+
+Do not alter production data or systems during this concept review.
+
+# 24 — DEFECT MANAGEMENT & PRIORITIZATION
+
+During the audit, classify findings.
+
+**P0 — Critical**
+
+Examples:
+
+- Unauthorized access.
+- Incorrect financial transactions.
+- Exposure of sensitive data.
+- Safety-control bypass.
+- Duplicate payments.
+- Severe data corruption.
+
+Address before considering release readiness.
+
+**P1 — High**
+
+Examples:
+
+- Broken checkout.
+- Incorrect order totals.
+- Broken POS workflow.
+- Failed inventory synchronization.
+- Missing kitchen order updates.
+- Ticket validation failures.
+- Major mobile navigation defects.
+
+**P2 — Medium**
+
+Examples:
+
+- Confusing navigation.
+- Inconsistent visual components.
+- Weak form validation.
+- Noncritical broken interactions.
+- Slow but usable tables.
+- Missing nonessential content.
+
+**P3 — Low**
+
+Examples:
+
+- Minor spacing differences.
+- Small cosmetic inconsistencies.
+- Unnecessary decorative elements.
+- Low-impact animation refinements.
+
+Fix systematically.
+
+Re-test every affected area.
+
+Do not introduce new features while critical defects remain unresolved.
+
+# 25 — EXECUTION ORDER
+
+Carry out this work in the EXISTING project.
+
+### PHASE 1 — PROJECT DISCOVERY
+
+Inspect the whole codebase, routes, components, integrations and data.
+
+### PHASE 2 — COMPLETENESS AUDIT
+
+Identify missing pages, incomplete modules, broken links and unfinished workflows.
+
+### PHASE 3 — CRITICAL DEFECT RESOLUTION
+
+Fix security, transaction-integrity and major functional issues.
+
+### PHASE 4 — PUBLIC WEBSITE
+
+Refine all public pages, product shopping, Restaurant, Play Land, About, Contact and customer accounts.
+
+### PHASE 5 — MANAGEMENT GATEWAY
+
+Verify central login, three system cards, system selection and secure role access.
+
+### PHASE 6 — SUPERMARKET MANAGEMENT
+
+Perform regression and role testing without unnecessary redesign.
+
+### PHASE 7 — RESTAURANT MANAGEMENT
+
+Test and complete every role, tab and operational workflow.
+
+### PHASE 8 — PLAY LAND MANAGEMENT
+
+Test and complete ticketing, attractions, safety, maintenance, events and all role workflows.
+
+### PHASE 9 — SAATHI AI
+
+Test knowledge, conversational quality, customer assistance, secure tool actions and support handoff.
+
+### PHASE 10 — INTEGRATIONS
+
+Verify consistent data and correct state changes across connected modules.
+
+### PHASE 11 — RESPONSIVE, ACCESSIBILITY & PERFORMANCE
+
+Conduct visual, device, accessibility and performance testing.
+
+### PHASE 12 — FINAL ARTISTIC REFINEMENT
+
+Polish typography, spacing, cards, imagery, layout, navigation, visual consistency and interaction quality.
+
+### PHASE 13 — MAINTENANCE PREPARATION
+
+Improve documentation, monitoring, tests, error handling and technical maintainability.
+
+### PHASE 14 — FINAL ACCEPTANCE
+
+Run all critical workflows again and produce the final QA report.
+
+Complete the phases in manageable, verifiable changes.
+
+Do not overwrite completed work or introduce unnecessary architectural changes.
+
+# 26 — REQUIRED FINAL QA REPORT
+
+At completion, generate a professional report.
+
+## A. Platform Coverage
+
+List all:
+
+- Public website pages.
+- Supermarket Management pages.
+- Restaurant Management pages.
+- Play Land Management pages.
+- Customer account pages.
+- Saathi AI components.
+
+Include actual route coverage.
+
+## B. Role Coverage
+
+List every configured role, sidebar, permitted modules and tested workflows.
+
+## C. Functional Verification
+
+For each tested feature, report:
+
+- Pass.
+- Fail.
+- Partially Working.
+- Demo Only.
+- Integration Required.
+- Not Tested.
+
+## D. UI/UX Review
+
+Report:
+
+- Design inconsistencies found.
+- Responsive defects.
+- Accessibility problems.
+- Improvements made.
+- Remaining visual issues.
+
+## E. Performance
+
+Report actual measured results, affected screens and optimizations implemented.
+
+## F. Security
+
+Report authorization, privacy and sensitive-workflow findings using appropriate non-sensitive summaries.
+
+## G. Data & Integration
+
+Document working integrations, demonstration services, missing business information and unresolved dependencies.
+
+## H. Changes Implemented
+
+Provide a concise summary of actual code, component, routing, workflow and design modifications.
+
+## I. Outstanding Work
+
+Clearly list anything incomplete.
+
+Do not claim completion merely because a page renders.
+
+# 27 — FINAL QUALITY GATES
+
+Do not mark the overall platform ready unless the following conditions are satisfied or accurately identified as outstanding.
+
+**GATE 1 — Identity**
+
+Marhaba's brand, history and services are represented consistently.
+
+**GATE 2 — Completeness**
+
+All required routes, components and workflows have been inspected.
+
+**GATE 3 — Functionality**
+
+All critical demonstrated actions behave correctly.
+
+**GATE 4 — Data Accuracy**
+
+Products, prices, dishes, ticket packages, orders and statuses use valid data or clearly labeled demonstration records.
+
+**GATE 5 — Operations**
+
+Retail, Restaurant and Play Land management processes follow coherent, tested workflows.
+
+**GATE 6 — Roles & Security**
+
+Correct permissions are enforced across applications.
+
+**GATE 7 — Responsiveness**
+
+Interfaces work on their intended devices.
+
+**GATE 8 — Performance**
+
+Important operations meet measured, realistic performance budgets or have documented deficiencies.
+
+**GATE 9 — Accessibility**
+
+The experience remains usable and readable for diverse customers and employees.
+
+**GATE 10 — Reliability**
+
+Errors are handled, transactions are traceable and recovery paths are defined.
+
+**GATE 11 — Maintainability**
+
+The codebase is understandable, modular, tested and appropriately documented.
+
+**GATE 12 — Executive Demonstration Readiness**
+
+The platform provides a stable, credible demonstration of the proposed solution without misrepresenting live integration or business approval.
+
+# 28 — FINAL EXECUTIVE DIRECTIVE FROM METAWAVE INNOVATIONS LTD
+
+Marhaba Supermarket is an established business with significant experience, investment, operations, employees, leadership and customer relationships.
+
+The digital experience must respect that reality.
+
+The public website must be welcoming, elegant, informative and easy for every customer.
+
+The Supermarket Management System must remain efficient, accurate and stable.
+
+The Restaurant Management System must professionally coordinate hospitality, kitchen operations, orders, finances and service.
+
+The Play Land Management System must support convenient admissions, attraction readiness, family experiences, maintenance and responsible operations.
+
+Marhaba Saathi AI must guide customers accurately and comfortably across all three customer experiences.
+
+The entire ecosystem must be:
+
+- Beautiful without being excessive.
+- Powerful without being complicated.
+- Comprehensive without being cluttered.
+- Responsive without compromising usability.
+- Fast without compromising correctness.
+- Secure without unnecessary friction.
+- Creative without losing professionalism.
+- Maintainable without fragile workarounds.
+- Helpful without overwhelming users.
+
+**Every product must be correctly presented.**
+
+**Every menu must be thoughtfully organized.**
+
+**Every attraction must be accurately represented.**
+
+**Every employee must have the right tools.**
+
+**Every transaction must be traceable.**
+
+**Every customer journey must be understandable.**
+
+**Every interface must feel comfortable.**
+
+**Every page must have a purpose.**
+
+### MWI FINAL STANDARD
+
+We are not building complexity for the sake of complexity.
+
+We are creating a refined, reliable and deeply considered digital experience for an established business.
+
+**Professional excellence is demonstrated through accuracy, clarity, consistency, reliability, maintainability and ease of use—not through unnecessary visual effects or exaggerated claims.**
+
+### FINAL EXECUTION ORDER
+
+Do not produce another generic improvement plan and stop.
+
+Inspect the existing application.
+
+Identify actual issues.
+
+Implement the justified improvements directly.
+
+Complete incomplete features where supported.
+
+Test critical processes.
+
+Verify role permissions.
+
+Improve visual quality.
+
+Optimize responsiveness and performance.
+
+Protect existing successful functionality.
+
+Document unresolved business and technical dependencies honestly.
+
+Produce the complete QA and acceptance report.
+
+**AUDIT → VERIFY → CORRECT → COMPLETE → OPTIMIZE → REFINE → RE-TEST → DOCUMENT.**
+
+**THE FINAL RESULT MUST BE A COHESIVE, EXECUTIVE-QUALITY MARHABA DIGITAL PLATFORM DEMONSTRATION THAT REFLECTS THE PROFESSIONAL DESIGN AND ENGINEERING STANDARDS OF METAWAVE INNOVATIONS LTD.**
+
+**BEGIN THE FINAL PLATFORM-WIDE AUDIT AND IMPLEMENTATION NOW.**

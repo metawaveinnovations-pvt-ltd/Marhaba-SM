@@ -349,6 +349,7 @@ export interface OnlineFulfillmentOrder {
   branchId: string;
   customerName: string;
   customerPhone: string;
+  customerEmail?: string;
   fulfillmentMethod: 'delivery' | 'pickup';
   addressSummary: string;
   paymentMethod: 'cod' | 'card-counter';

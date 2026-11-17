@@ -20,6 +20,7 @@ import {
 } from './components/Pages/SecondaryPages';
 
 const ManagementPortal = React.lazy(() => import('./components/Management/ManagementPortal'));
+const SaathiWidget = React.lazy(() => import('./components/Saathi/SaathiWidget'));
 
 function MarhabaShell() {
   const { route, managementPath, toast, dismissToast, isCartOpen } = useStore();
@@ -96,6 +97,10 @@ function MarhabaShell() {
           </button>
         </div>
       )}
+
+      <Suspense fallback={null}>
+        <SaathiWidget />
+      </Suspense>
     </div>
   );
 }

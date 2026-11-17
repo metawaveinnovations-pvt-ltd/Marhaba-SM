@@ -33,46 +33,26 @@ type ActiveDropdown = 'shop' | 'restaurant' | 'playland' | null;
 export function MarhabaLogo({ variant = 'light' }: { variant?: 'light' | 'dark' }) {
   const isDark = variant === 'dark';
   return (
-    <div className="flex items-center gap-2 sm:gap-2.5 shrink-0">
-      <svg
-        width="34"
-        height="34"
-        viewBox="0 0 40 40"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        aria-hidden="true"
-        className="w-8 h-8 sm:w-9 sm:h-9 shrink-0"
-      >
-        <rect
-          width="40"
-          height="40"
-          rx="10"
-          fill="#9B1C2E"
-          stroke={isDark ? 'rgba(250, 249, 246, 0.16)' : 'none'}
-          strokeWidth="1"
-        />
-        <path
-          d="M9 28V12H13.2L20 21.8L26.8 12H31V28H27.2V18.4L20.8 27.2H19.2L12.8 18.4V28H9Z"
-          fill="#FAF9F6"
-        />
-        <circle cx="20" cy="9" r="2" fill="#FBBF24" />
-      </svg>
-      <div className="flex flex-col leading-none">
-        <span
-          className={`font-serif text-base sm:text-xl font-bold tracking-tight whitespace-nowrap ${
-            isDark ? 'text-[#FAF9F6]' : 'text-[#1C1917]'
-          }`}
-        >
-          Marhaba
-        </span>
-        <span
-          className={`text-[9px] sm:text-[10px] font-semibold tracking-[0.14em] sm:tracking-[0.16em] uppercase whitespace-nowrap ${
-            isDark ? 'text-[#FBBF24]' : 'text-[#9B1C2E]'
-          }`}
-        >
-          Supermarket
-        </span>
-      </div>
+    <div
+      className={
+        isDark
+          ? 'inline-flex items-center shrink-0 rounded-xl bg-[#FAF9F6] px-3 py-2 border border-[#E6E2DA]/20'
+          : 'inline-flex items-center shrink-0'
+      }
+    >
+      <img
+        src="/assets/aistudio/image_292328c4.png"
+        alt="Marhaba Supermarket — Everything Is Fresh"
+        width={1431}
+        height={425}
+        loading="eager"
+        decoding="async"
+        className={
+          isDark
+            ? 'h-10 sm:h-11 w-auto max-w-[175px] object-contain select-none'
+            : 'h-8 sm:h-11 lg:h-12 w-auto max-w-[112px] sm:max-w-[180px] lg:max-w-[205px] object-contain select-none'
+        }
+      />
     </div>
   );
 }
