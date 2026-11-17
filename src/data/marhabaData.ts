@@ -16,12 +16,12 @@ import type {
 } from '../types/marhaba';
 
 export const ASSETS = {
-  heroDestination: '/src/assets/images/hero_marhaba_destination_1794792047836.jpg',
-  shopGrocery: '/src/assets/images/shop_grocery_essentials_1794792047913.jpg',
-  shopBeauty: '/src/assets/images/shop_beauty_personal_care_1794792049078.jpg',
-  restaurantHero: '/src/assets/images/restaurant_dining_hero_1794792050145.jpg',
-  restaurantFeast: '/src/assets/images/restaurant_cuisine_feast_1794792050007.jpg',
-  playlandZone: '/src/assets/images/playland_family_zone_1794792050935.jpg',
+  heroDestination: '/images/hero_marhaba_destination_1794792047836.jpg',
+  shopGrocery: '/images/shop_grocery_essentials_1794792047913.jpg',
+  shopBeauty: '/images/shop_beauty_personal_care_1794792049078.jpg',
+  restaurantHero: '/images/restaurant_dining_hero_1794792050145.jpg',
+  restaurantFeast: '/images/restaurant_cuisine_feast_1794792050007.jpg',
+  playlandZone: '/images/playland_family_zone_1794792050935.jpg',
 } as const;
 
 export const VERIFIED_BRANCHES: BranchInfo[] = [
